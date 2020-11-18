@@ -15,6 +15,7 @@ app.use(express.json());
 
 app.use(express.static("public"));
 
+//Application Code for MongoDB Connection
 mongoose.connect(
     process.env.MONGODB_URI || 'mongodb://localhost/workout', {
         useNewUrlParser: true,
@@ -25,6 +26,7 @@ mongoose.connect(
 );
 // routes
 app.use(require("./routes/apiRoutes.js"));
+app.use(require("./routes/htmlRoutes"));
 
 //Turn on Server
 app.listen(PORT, () => {
