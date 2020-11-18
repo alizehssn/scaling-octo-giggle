@@ -25,14 +25,16 @@ Users may clone this [Github repository](https://github.com/alizehssn/scaling-oc
  ## Usage
  ***
  The deployed Workout Tracker is on Heroku.
-
+![Deployed Application](/imgs/homepage.png)
  When the user enters the homepage of the application they are prompted to either continue a workout,
  or create a new workout.
  If create a new workout is selected, the user is provided a series of prompts to log the new workout.
+ ![New Workout Page](/imgs/newworkout.png)
  The type of workout is first entered, and then the user will be provided different prompts to record the information accordingly based on whether Resistance or Cardio is selected. This information is stored in
  the MongoDB database.
  To view previous workouts or update an exercise entry, the user is provided the Workout Dashboard which displays 
  the graphs and charts of their data.
+  ![Dashboard](/imgs/dashboard.png)
 
  ## Tests
  ***
