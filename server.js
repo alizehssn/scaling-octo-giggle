@@ -9,6 +9,9 @@ const PORT = process.env.PORT || 3000;
 //Variable for express function
 const app = express();
 
+//Allow App to use morgan
+app.use(logger("dev"));
+
 //Middleware
 app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
