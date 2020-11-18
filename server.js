@@ -28,8 +28,8 @@ mongoose.connect(
     }
 );
 // routes
-app.use(require("./routes/apiRoutes.js"));
-app.use(require("./routes/htmlRoutes"));
+require("./routes/apiRoutes")(app);
+require("./routes/htmlRoutes")(app);
 
 //Turn on Server
 app.listen(PORT, () => {

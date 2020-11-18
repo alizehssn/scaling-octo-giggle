@@ -4,7 +4,7 @@
 ## Project Description
 ***
 The Workout Tracker Application is dynamic web application utilized to log the user's workouts.
-The user's information is stored on the backend using MongoDB.
+The user's information is stored on the backend using MongoDB and deployed on Heroku.
 
 ## Table of Contents
 ***
@@ -19,8 +19,8 @@ The user's information is stored on the backend using MongoDB.
 
 ## Installation
 ***
-Users may clone this github repository into their local drive and run,
- or use the Workout Tracker application on Heroku.
+Users may clone this [Github repository](https://github.com/alizehssn/scaling-octo-giggle) into their local drive and run,
+ or use the [Workout Tracker application](https://shielded-chamber-55933.herokuapp.com/)
 
  ## Usage
  ***
